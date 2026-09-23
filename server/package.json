@@ -1,9 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "server",
+  "name": "ai-skill-gap-analyzer-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend API for AI Skill Gap Analyzer",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
@@ -12,7 +12,15 @@
     "seed:sql": "node seedSQLQuestions.js",
     "seed:coding": "node seedCodingQuestions.js"
   },
-  "keywords": [],
+  "engines": {
+    "node": ">=22 <25"
+  },
+  "keywords": [
+    "skill-gap",
+    "assessment",
+    "express",
+    "mongodb"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
