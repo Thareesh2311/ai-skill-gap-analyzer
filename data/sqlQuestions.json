@@ -1,0 +1,197 @@
+[
+  {
+    "skill": "SQL",
+    "difficulty": "beginner",
+    "title": "Find all employees",
+    "description": "Write a query to retrieve all employees from the employees table.",
+    "testCases": [
+      {
+        "schema": "CREATE TABLE employees (id INTEGER, name TEXT, department TEXT, salary INTEGER);",
+        "sampleData": "INSERT INTO employees VALUES (1, 'John', 'IT', 50000), (2, 'Jane', 'HR', 45000), (3, 'David', 'IT', 60000);",
+        "expectedResult": [
+          {
+            "id": 1,
+            "name": "John",
+            "department": "IT",
+            "salary": 50000
+          },
+          {
+            "id": 2,
+            "name": "Jane",
+            "department": "HR",
+            "salary": 45000
+          },
+          {
+            "id": 3,
+            "name": "David",
+            "department": "IT",
+            "salary": 60000
+          }
+        ]
+      },
+      {
+        "schema": "CREATE TABLE employees (id INTEGER, name TEXT, department TEXT, salary INTEGER);",
+        "sampleData": "INSERT INTO employees VALUES (10, 'Rahul', 'Finance', 55000), (11, 'Priya', 'IT', 70000);",
+        "expectedResult": [
+          {
+            "id": 10,
+            "name": "Rahul",
+            "department": "Finance",
+            "salary": 55000
+          },
+          {
+            "id": 11,
+            "name": "Priya",
+            "department": "IT",
+            "salary": 70000
+          }
+        ]
+      }
+    ],
+    "points": 10
+  },
+
+  {
+    "skill": "SQL",
+    "difficulty": "beginner",
+    "title": "Filter employees by department",
+    "description": "Write a query to retrieve all employees who work in the IT department.",
+    "testCases": [
+      {
+        "schema": "CREATE TABLE employees (id INTEGER, name TEXT, department TEXT, salary INTEGER);",
+        "sampleData": "INSERT INTO employees VALUES (1, 'John', 'IT', 50000), (2, 'Jane', 'HR', 45000), (3, 'David', 'IT', 60000);",
+        "expectedResult": [
+          {
+            "id": 1,
+            "name": "John",
+            "department": "IT",
+            "salary": 50000
+          },
+          {
+            "id": 3,
+            "name": "David",
+            "department": "IT",
+            "salary": 60000
+          }
+        ]
+      },
+      {
+        "schema": "CREATE TABLE employees (id INTEGER, name TEXT, department TEXT, salary INTEGER);",
+        "sampleData": "INSERT INTO employees VALUES (1, 'Rahul', 'HR', 40000), (2, 'Priya', 'IT', 65000), (3, 'Arjun', 'Finance', 55000);",
+        "expectedResult": [
+          {
+            "id": 2,
+            "name": "Priya",
+            "department": "IT",
+            "salary": 65000
+          }
+        ]
+      }
+    ],
+    "points": 10
+  },
+
+  {
+    "skill": "SQL",
+    "difficulty": "intermediate",
+    "title": "Find average salary",
+    "description": "Write a query to calculate the average salary of all employees.",
+    "testCases": [
+      {
+        "schema": "CREATE TABLE employees (id INTEGER, name TEXT, department TEXT, salary INTEGER);",
+        "sampleData": "INSERT INTO employees VALUES (1, 'John', 'IT', 50000), (2, 'Jane', 'HR', 45000), (3, 'David', 'IT', 60000);",
+        "expectedResult": [
+          {
+            "AVG(salary)": 51666.666667
+          }
+        ]
+      },
+      {
+        "schema": "CREATE TABLE employees (id INTEGER, name TEXT, department TEXT, salary INTEGER);",
+        "sampleData": "INSERT INTO employees VALUES (1, 'A', 'IT', 10000), (2, 'B', 'HR', 20000), (3, 'C', 'IT', 30000);",
+        "expectedResult": [
+          {
+            "AVG(salary)": 20000
+          }
+        ]
+      }
+    ],
+    "points": 15
+  },
+
+  {
+    "skill": "SQL",
+    "difficulty": "intermediate",
+    "title": "Count employees by department",
+    "description": "Write a query to count the number of employees in each department.",
+    "testCases": [
+      {
+        "schema": "CREATE TABLE employees (id INTEGER, name TEXT, department TEXT, salary INTEGER);",
+        "sampleData": "INSERT INTO employees VALUES (1, 'John', 'IT', 50000), (2, 'Jane', 'HR', 45000), (3, 'David', 'IT', 60000);",
+        "expectedResult": [
+          {
+            "department": "HR",
+            "COUNT(*)": 1
+          },
+          {
+            "department": "IT",
+            "COUNT(*)": 2
+          }
+        ]
+      },
+      {
+        "schema": "CREATE TABLE employees (id INTEGER, name TEXT, department TEXT, salary INTEGER);",
+        "sampleData": "INSERT INTO employees VALUES (1, 'A', 'Sales', 30000), (2, 'B', 'Sales', 40000), (3, 'C', 'IT', 50000);",
+        "expectedResult": [
+          {
+            "department": "IT",
+            "COUNT(*)": 1
+          },
+          {
+            "department": "Sales",
+            "COUNT(*)": 2
+          }
+        ]
+      }
+    ],
+    "points": 15
+  },
+
+  {
+    "skill": "SQL",
+    "difficulty": "advanced",
+    "title": "Find highest salary by department",
+    "description": "Write a query to find the highest salary in each department.",
+    "testCases": [
+      {
+        "schema": "CREATE TABLE employees (id INTEGER, name TEXT, department TEXT, salary INTEGER);",
+        "sampleData": "INSERT INTO employees VALUES (1, 'John', 'IT', 50000), (2, 'Jane', 'HR', 45000), (3, 'David', 'IT', 60000);",
+        "expectedResult": [
+          {
+            "department": "HR",
+            "MAX(salary)": 45000
+          },
+          {
+            "department": "IT",
+            "MAX(salary)": 60000
+          }
+        ]
+      },
+      {
+        "schema": "CREATE TABLE employees (id INTEGER, name TEXT, department TEXT, salary INTEGER);",
+        "sampleData": "INSERT INTO employees VALUES (1, 'A', 'Finance', 70000), (2, 'B', 'Finance', 90000), (3, 'C', 'IT', 80000);",
+        "expectedResult": [
+          {
+            "department": "Finance",
+            "MAX(salary)": 90000
+          },
+          {
+            "department": "IT",
+            "MAX(salary)": 80000
+          }
+        ]
+      }
+    ],
+    "points": 20
+  }
+]

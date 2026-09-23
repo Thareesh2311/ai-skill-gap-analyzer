@@ -1,0 +1,1367 @@
+/* =========================================================
+   SQL RESULT PAGE
+========================================================= */
+
+.sql-result-page {
+    min-height: 100vh;
+    padding: 82px 32px 50px;
+
+    box-sizing: border-box;
+
+    background:
+        radial-gradient(
+            circle at top right,
+            rgba(14, 165, 233, 0.08),
+            transparent 30%
+        ),
+        #07090f;
+
+    color: #f8fafc;
+}
+
+
+.sql-result-container {
+    width: min(1180px, 100%);
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.sql-result-hero {
+    padding: 30px;
+
+    border-radius: 20px;
+
+    background: #101522;
+
+    border: 1px solid
+        rgba(255, 255, 255, 0.09);
+
+    box-shadow:
+        0 20px 60px
+        rgba(0, 0, 0, 0.25);
+}
+
+
+.sql-result-hero-top {
+    display: flex;
+
+    align-items: flex-start;
+
+    justify-content: space-between;
+
+    gap: 25px;
+
+    padding-bottom: 28px;
+
+    border-bottom: 1px solid
+        rgba(255, 255, 255, 0.08);
+}
+
+
+.sql-result-kicker {
+    margin-bottom: 8px;
+
+    color: #38bdf8;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: 1.1px;
+}
+
+
+.sql-result-hero h1 {
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size: 30px;
+
+    line-height: 1.25;
+}
+
+
+.sql-result-hero-top p {
+    max-width: 610px;
+
+    margin: 10px 0 0;
+
+    color: #8e9bb2;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   STATUS
+========================================================= */
+
+.sql-result-status-badge {
+    flex-shrink: 0;
+
+    padding: 10px 14px;
+
+    border-radius: 999px;
+
+    color: #4ade80;
+
+    background:
+        rgba(34, 197, 94, 0.08);
+
+    border: 1px solid
+        rgba(34, 197, 94, 0.3);
+
+    font-size: 11px;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   SCORE OVERVIEW
+========================================================= */
+
+.sql-result-overview {
+    display: flex;
+
+    align-items: center;
+
+    gap: 35px;
+
+    padding-top: 30px;
+}
+
+
+.sql-score-circle {
+    width: 150px;
+    height: 150px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    padding: 8px;
+
+    background:
+        conic-gradient(
+            #38bdf8,
+            #6366f1,
+            #38bdf8
+        );
+
+    box-shadow:
+        0 0 35px
+        rgba(56, 189, 248, 0.12);
+}
+
+
+.sql-score-circle-inner {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #0b101a;
+}
+
+
+.sql-score-circle-inner strong {
+    color: #ffffff;
+
+    font-size: 32px;
+}
+
+
+.sql-score-circle-inner span {
+    margin-top: 3px;
+
+    color: #71809a;
+
+    font-size: 11px;
+}
+
+
+.sql-score-details {
+    flex: 1;
+}
+
+
+.sql-score-details h2 {
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size: 21px;
+}
+
+
+.sql-score-details p {
+    margin: 8px 0 17px;
+
+    color: #8795ac;
+
+    font-size: 13px;
+}
+
+
+.sql-score-progress {
+    height: 7px;
+
+    overflow: hidden;
+
+    border-radius: 999px;
+
+    background: #1b2434;
+}
+
+
+.sql-score-progress-fill {
+    height: 100%;
+
+    border-radius: inherit;
+
+    background:
+        linear-gradient(
+            90deg,
+            #38bdf8,
+            #6366f1
+        );
+
+    transition:
+        width 0.4s ease;
+}
+
+
+.sql-score-points {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-top: 13px;
+
+    color: #77869d;
+
+    font-size: 11px;
+}
+
+
+.sql-score-points strong {
+    color: #dbe7f8;
+
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   SUMMARY GRID
+========================================================= */
+
+.sql-result-summary-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, minmax(0, 1fr));
+
+    gap: 15px;
+
+    margin-top: 20px;
+}
+
+
+.sql-result-summary-card {
+    padding: 20px;
+
+    border-radius: 15px;
+
+    background: #101522;
+
+    border: 1px solid
+        rgba(255, 255, 255, 0.08);
+}
+
+
+.sql-summary-label {
+    display: block;
+
+    color: #78869d;
+
+    font-size: 11px;
+}
+
+
+.sql-result-summary-card strong {
+    display: block;
+
+    margin-top: 8px;
+
+    color: #ffffff;
+
+    font-size: 27px;
+}
+
+
+.sql-result-summary-card.success strong {
+    color: #4ade80;
+}
+
+
+.sql-result-summary-card.failed strong {
+    color: #f87171;
+}
+
+
+/* =========================================================
+   QUESTION RESULT SECTION
+========================================================= */
+
+.sql-question-results-section {
+    margin-top: 24px;
+}
+
+
+.sql-question-results-heading {
+    display: flex;
+
+    align-items: flex-end;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    margin-bottom: 17px;
+}
+
+
+.sql-question-results-heading span {
+    color: #38bdf8;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+
+.sql-question-results-heading h2 {
+    margin: 5px 0 0;
+
+    color: #ffffff;
+
+    font-size: 22px;
+}
+
+
+.sql-question-results-heading p {
+    margin: 0;
+
+    color: #73819a;
+
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   QUESTION LIST
+========================================================= */
+
+.sql-final-question-list {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 17px;
+}
+
+
+.sql-final-question-card {
+    overflow: hidden;
+
+    padding: 24px;
+
+    border-radius: 18px;
+
+    background: #101522;
+
+    border: 1px solid
+        rgba(255, 255, 255, 0.08);
+}
+
+
+.sql-final-question-card.correct {
+    border-left: 3px solid #22c55e;
+}
+
+
+.sql-final-question-card.incorrect {
+    border-left: 3px solid #ef4444;
+}
+
+
+/* =========================================================
+   QUESTION HEADER
+========================================================= */
+
+.sql-final-question-header {
+    display: flex;
+
+    align-items: flex-start;
+
+    justify-content: space-between;
+
+    gap: 20px;
+}
+
+
+.sql-final-question-number {
+    margin-bottom: 5px;
+
+    color: #718198;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.8px;
+}
+
+
+.sql-final-question-header h3 {
+    margin: 0;
+
+    color: #f8fafc;
+
+    font-size: 18px;
+}
+
+
+.sql-final-question-badges {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    flex-wrap: wrap;
+}
+
+
+/* =========================================================
+   QUESTION BADGES
+========================================================= */
+
+.sql-final-difficulty,
+.sql-final-pass-badge {
+    padding: 7px 11px;
+
+    border-radius: 999px;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    text-transform: capitalize;
+}
+
+
+.sql-final-difficulty {
+    color: #94a3b8;
+
+    background:
+        rgba(148, 163, 184, 0.08);
+
+    border: 1px solid
+        rgba(148, 163, 184, 0.18);
+}
+
+
+.sql-final-difficulty.beginner {
+    color: #4ade80;
+}
+
+
+.sql-final-difficulty.intermediate {
+    color: #fbbf24;
+}
+
+
+.sql-final-difficulty.advanced {
+    color: #fb7185;
+}
+
+
+.sql-final-pass-badge.passed {
+    color: #4ade80;
+
+    background:
+        rgba(34, 197, 94, 0.08);
+
+    border: 1px solid
+        rgba(34, 197, 94, 0.25);
+}
+
+
+.sql-final-pass-badge.failed {
+    color: #f87171;
+
+    background:
+        rgba(239, 68, 68, 0.08);
+
+    border: 1px solid
+        rgba(239, 68, 68, 0.25);
+}
+
+
+/* =========================================================
+   QUESTION METRICS
+========================================================= */
+
+.sql-final-question-metrics {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, minmax(0, 1fr));
+
+    gap: 10px;
+
+    margin-top: 20px;
+}
+
+
+.sql-final-question-metrics > div {
+    padding: 12px;
+
+    border-radius: 10px;
+
+    background: #0b101a;
+
+    border: 1px solid
+        rgba(255, 255, 255, 0.06);
+}
+
+
+.sql-final-question-metrics span {
+    display: block;
+
+    color: #718099;
+
+    font-size: 9px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.5px;
+}
+
+
+.sql-final-question-metrics strong {
+    display: block;
+
+    margin-top: 6px;
+
+    color: #dce7f7;
+
+    font-size: 12px;
+}
+
+
+/* =========================================================
+   SUBMITTED QUERY
+========================================================= */
+
+.sql-final-query-block {
+    margin-top: 20px;
+}
+
+
+.sql-final-block-title,
+.sql-final-tests-title,
+.sql-final-data-title {
+    margin-bottom: 8px;
+
+    color: #8ca0bb;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.6px;
+
+    text-transform: uppercase;
+}
+
+
+.sql-final-query-block pre {
+    margin: 0;
+
+    padding: 15px;
+
+    max-height: 280px;
+
+    overflow: auto;
+
+    border-radius: 11px;
+
+    color: #93c5fd;
+
+    background: #080d16;
+
+    border: 1px solid
+        rgba(255, 255, 255, 0.07);
+
+    white-space: pre-wrap;
+
+    overflow-wrap: anywhere;
+
+    font-family:
+        "JetBrains Mono",
+        "Fira Code",
+        Consolas,
+        monospace;
+
+    font-size: 12px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   QUESTION ERROR
+========================================================= */
+
+.sql-final-question-error {
+    margin-top: 16px;
+
+    padding: 13px;
+
+    border-radius: 10px;
+
+    color: #fecaca;
+
+    background:
+        rgba(239, 68, 68, 0.06);
+
+    border: 1px solid
+        rgba(239, 68, 68, 0.17);
+}
+
+
+.sql-final-question-error strong {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: #f87171;
+
+    font-size: 11px;
+}
+
+
+.sql-final-question-error p {
+    margin: 0;
+
+    font-size: 11px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   TEST CASES
+========================================================= */
+
+.sql-final-tests {
+    margin-top: 22px;
+}
+
+
+.sql-final-tests-list {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+
+.sql-final-test {
+    padding: 15px;
+
+    border-radius: 12px;
+
+    background: #0a0f19;
+
+    border: 1px solid
+        rgba(255, 255, 255, 0.07);
+}
+
+
+.sql-final-test.passed {
+    border-color:
+        rgba(34, 197, 94, 0.2);
+}
+
+
+.sql-final-test.failed {
+    border-color:
+        rgba(239, 68, 68, 0.2);
+}
+
+
+.sql-final-test-header {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 12px;
+}
+
+
+.sql-final-test-header > div {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+}
+
+
+.sql-final-test-header strong {
+    color: #dbe4f1;
+
+    font-size: 12px;
+}
+
+
+.sql-hidden-test-label {
+    padding: 3px 6px;
+
+    border-radius: 5px;
+
+    color: #c084fc;
+
+    background:
+        rgba(168, 85, 247, 0.09);
+
+    font-size: 8px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+}
+
+
+.sql-test-status {
+    font-size: 10px;
+
+    font-weight: 700;
+}
+
+
+.sql-test-status.passed {
+    color: #4ade80;
+}
+
+
+.sql-test-status.failed {
+    color: #f87171;
+}
+
+
+/* =========================================================
+   TEST META
+========================================================= */
+
+.sql-final-test-meta {
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+
+    flex-wrap: wrap;
+
+    margin-top: 10px;
+
+    color: #738199;
+
+    font-size: 10px;
+}
+
+
+.sql-final-test-meta strong {
+    color: #aebbd0;
+}
+
+
+.sql-timeout-label {
+    color: #fbbf24;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   TEST ERRORS
+========================================================= */
+
+.sql-final-test-error {
+    margin-top: 10px;
+
+    padding: 10px;
+
+    color: #fca5a5;
+
+    background:
+        rgba(239, 68, 68, 0.06);
+
+    border-radius: 8px;
+
+    font-size: 10px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   HIDDEN TEST
+========================================================= */
+
+.sql-hidden-test-message {
+    margin-top: 11px;
+
+    padding: 11px;
+
+    color: #8b98ae;
+
+    background:
+        rgba(168, 85, 247, 0.035);
+
+    border: 1px dashed
+        rgba(168, 85, 247, 0.18);
+
+    border-radius: 8px;
+
+    font-size: 10px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   PUBLIC RESULT TABLES
+========================================================= */
+
+.sql-public-test-results {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap: 12px;
+
+    margin-top: 13px;
+}
+
+
+.sql-public-test-results.legacy {
+    margin-top: 20px;
+}
+
+
+.sql-final-data-block {
+    min-width: 0;
+}
+
+
+.sql-final-table-wrapper {
+    width: 100%;
+
+    max-height: 280px;
+
+    overflow: auto;
+
+    border-radius: 9px;
+
+    border: 1px solid
+        rgba(255, 255, 255, 0.07);
+}
+
+
+.sql-final-table {
+    width: 100%;
+
+    min-width: 360px;
+
+    border-collapse: collapse;
+
+    background: #080d16;
+
+    font-size: 10px;
+}
+
+
+.sql-final-table thead {
+    position: sticky;
+
+    top: 0;
+
+    background: #151d2b;
+}
+
+
+.sql-final-table th {
+    padding: 9px 11px;
+
+    color: #93c5fd;
+
+    text-align: left;
+
+    border-bottom: 1px solid
+        rgba(255, 255, 255, 0.07);
+
+    white-space: nowrap;
+}
+
+
+.sql-final-table td {
+    padding: 9px 11px;
+
+    color: #cbd5e1;
+
+    border-bottom: 1px solid
+        rgba(255, 255, 255, 0.045);
+
+    white-space: nowrap;
+}
+
+
+.sql-result-null {
+    color: #94a3b8;
+
+    font-style: italic;
+}
+
+
+.sql-final-empty-table {
+    padding: 16px;
+
+    color: #718099;
+
+    background: #080d16;
+
+    border: 1px dashed
+        rgba(255, 255, 255, 0.07);
+
+    border-radius: 8px;
+
+    text-align: center;
+
+    font-size: 10px;
+}
+
+
+/* =========================================================
+   NO QUESTION RESULTS
+========================================================= */
+
+.sql-no-question-results {
+    padding: 30px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    color: #7d8ba3;
+
+    background: #101522;
+
+    border: 1px dashed
+        rgba(255, 255, 255, 0.08);
+
+    font-size: 12px;
+}
+
+
+/* =========================================================
+   ACTIONS
+========================================================= */
+
+.sql-result-actions {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 14px;
+
+    margin-top: 25px;
+}
+
+
+.sql-result-primary-btn,
+.sql-result-secondary-btn {
+    min-height: 44px;
+
+    padding: 11px 20px;
+
+    border-radius: 11px;
+
+    border: 1px solid transparent;
+
+    font-family: inherit;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+
+.sql-result-primary-btn {
+    color: #ffffff;
+
+    background:
+        linear-gradient(
+            135deg,
+            #0ea5e9,
+            #6366f1
+        );
+}
+
+
+.sql-result-primary-btn:hover {
+    transform: translateY(-1px);
+}
+
+
+.sql-result-secondary-btn {
+    color: #cbd5e1;
+
+    background: #101522;
+
+    border-color:
+        rgba(255, 255, 255, 0.1);
+}
+
+
+.sql-result-secondary-btn:hover {
+    background: #172033;
+}
+
+
+/* =========================================================
+   LOADING / ERROR
+========================================================= */
+
+.sql-result-loading,
+.sql-result-error-page {
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 30px;
+
+    background: #07090f;
+
+    color: #ffffff;
+}
+
+
+.sql-result-loading-card,
+.sql-result-error-card {
+    width: min(440px, 100%);
+
+    padding: 35px;
+
+    border-radius: 18px;
+
+    text-align: center;
+
+    background: #101522;
+
+    border: 1px solid
+        rgba(255, 255, 255, 0.09);
+}
+
+
+.sql-result-loading-card h2,
+.sql-result-error-card h2 {
+    margin: 18px 0 8px;
+
+    font-size: 20px;
+}
+
+
+.sql-result-loading-card p,
+.sql-result-error-card p {
+    margin: 0 0 23px;
+
+    color: #8491a8;
+
+    font-size: 12px;
+
+    line-height: 1.7;
+}
+
+
+.sql-result-spinner {
+    width: 38px;
+    height: 38px;
+
+    margin: 0 auto;
+
+    border-radius: 50%;
+
+    border: 3px solid
+        rgba(255, 255, 255, 0.1);
+
+    border-top-color: #38bdf8;
+
+    animation:
+        sqlResultSpin
+        0.8s
+        linear
+        infinite;
+}
+
+
+@keyframes sqlResultSpin {
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.sql-result-error-icon {
+    width: 44px;
+    height: 44px;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    color: #f87171;
+
+    background:
+        rgba(239, 68, 68, 0.08);
+
+    border: 1px solid
+        rgba(239, 68, 68, 0.22);
+
+    font-size: 20px;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   SCROLLBARS
+========================================================= */
+
+.sql-final-query-block pre::-webkit-scrollbar,
+.sql-final-table-wrapper::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+
+.sql-final-query-block pre::-webkit-scrollbar-track,
+.sql-final-table-wrapper::-webkit-scrollbar-track {
+    background: #080d16;
+}
+
+
+.sql-final-query-block pre::-webkit-scrollbar-thumb,
+.sql-final-table-wrapper::-webkit-scrollbar-thumb {
+    background: #364258;
+
+    border-radius: 999px;
+}
+
+
+/* =========================================================
+   RESPONSIVE - TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .sql-result-summary-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+
+    .sql-final-question-metrics {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+
+    .sql-public-test-results {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVE - MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+
+    .sql-result-page {
+        padding:
+            76px
+            14px
+            35px;
+    }
+
+
+    .sql-result-hero {
+        padding: 21px;
+    }
+
+
+    .sql-result-hero-top {
+        flex-direction: column;
+    }
+
+
+    .sql-result-overview {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+
+    .sql-score-details {
+        width: 100%;
+    }
+
+
+    .sql-result-summary-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+
+    .sql-question-results-heading {
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+
+
+    .sql-final-question-header {
+        flex-direction: column;
+    }
+
+
+    .sql-final-question-metrics {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+
+    .sql-result-actions {
+        flex-direction: column;
+    }
+
+
+    .sql-result-actions button {
+        width: 100%;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVE - SMALL MOBILE
+========================================================= */
+
+@media (max-width: 430px) {
+
+    .sql-result-page {
+        padding-left: 10px;
+
+        padding-right: 10px;
+    }
+
+
+    .sql-result-hero h1 {
+        font-size: 25px;
+    }
+
+
+    .sql-score-circle {
+        width: 130px;
+        height: 130px;
+    }
+
+
+    .sql-score-circle-inner strong {
+        font-size: 28px;
+    }
+
+
+    .sql-result-summary-card {
+        padding: 16px;
+    }
+
+
+    .sql-result-summary-card strong {
+        font-size: 23px;
+    }
+
+
+    .sql-final-question-card {
+        padding: 17px;
+    }
+
+
+    .sql-final-question-metrics {
+        grid-template-columns: 1fr;
+    }
+}

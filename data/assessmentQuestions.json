@@ -1,0 +1,128 @@
+[
+    {
+        "skill": "Python",
+        "difficulty": "beginner",
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "function",
+            "def",
+            "func",
+            "define"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The def keyword is used to define a function in Python.",
+        "points": 1
+    },
+    {
+        "skill": "Python",
+        "difficulty": "beginner",
+        "question": "Which data type is immutable?",
+        "options": [
+            "List",
+            "Dictionary",
+            "Tuple",
+            "Set"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Tuples are immutable in Python.",
+        "points": 1
+    },
+    {
+        "skill": "SQL",
+        "difficulty": "beginner",
+        "question": "Which SQL command is used to retrieve data?",
+        "options": [
+            "INSERT",
+            "SELECT",
+            "UPDATE",
+            "DELETE"
+        ],
+        "correctAnswer": 1,
+        "explanation": "SELECT retrieves data from a database.",
+        "points": 1
+    },
+    {
+        "skill": "Excel",
+        "difficulty": "beginner",
+        "question": "Which function calculates the average in Excel?",
+        "options": [
+            "SUM",
+            "COUNT",
+            "AVERAGE",
+            "TOTAL"
+        ],
+        "correctAnswer": 2,
+        "explanation": "AVERAGE calculates the arithmetic mean.",
+        "points": 1
+    },
+    {
+        "skill": "Statistics",
+        "difficulty": "beginner",
+        "question": "Which measure represents the middle value of ordered data?",
+        "options": [
+            "Mean",
+            "Median",
+            "Mode",
+            "Range"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Median is the middle value of ordered data.",
+        "points": 1
+    },
+    {
+        "skill": "Power BI",
+        "difficulty": "beginner",
+        "question": "Which feature in Power BI allows you to create interactive visualizations?",
+        "options": [
+            "Data Modeling",
+            "DAX",
+            "Reports",
+            "Dashboards"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Dashboards in Power BI allow for interactive visualizations.",
+        "points": 1
+    },
+    {
+        "skill": "Pandas",
+        "difficulty": "beginner",
+        "question": "Which function is used to read a CSV file in Pandas?",
+        "options": [
+            "read_csv()",
+            "read_excel()",
+            "read_json()",
+            "read_sql()"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The read_csv() function is used to read CSV files in Pandas.",
+        "points": 1
+    },
+    {
+        "skill": "NumPy",
+        "difficulty": "beginner",
+        "question": "Which function creates an array of evenly spaced values in NumPy?",
+        "options": [
+            "linspace()",
+            "arange()",
+            "zeros()",
+            "ones()"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The linspace() function creates an array of evenly spaced values.",
+        "points": 1
+    },
+    {
+        "skill": "Machine Learning",
+        "difficulty": "beginner",
+        "question": "Which algorithm is commonly used for classification tasks?",
+        "options": [
+            "Linear Regression",
+            "Decision Trees",
+            "K-Means Clustering",
+            "Principal Component Analysis"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Decision Trees are commonly used for classification tasks.",
+        "points": 1
+    }
+]

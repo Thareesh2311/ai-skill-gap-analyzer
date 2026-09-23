@@ -1,0 +1,340 @@
+[
+  {
+    "company": "TCS",
+    "role": "Data Analyst",
+    "skills": [
+      { "name": "SQL", "importance": 18, "requiredLevel": "Intermediate" },
+      { "name": "Python", "importance": 15, "requiredLevel": "Intermediate" },
+      { "name": "Excel", "importance": 12, "requiredLevel": "Intermediate" },
+      { "name": "Power BI", "importance": 12, "requiredLevel": "Intermediate" },
+      { "name": "Statistics", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "Pandas", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "NumPy", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "Data Visualization", "importance": 5, "requiredLevel": "Intermediate" },
+      { "name": "ETL", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "Data Cleaning", "importance": 5, "requiredLevel": "Intermediate" },
+      { "name": "Business Analysis", "importance": 5, "requiredLevel": "Beginner" }
+    ]
+  },
+
+  {
+    "company": "TCS",
+    "role": "Data Scientist",
+    "skills": [
+      { "name": "Python", "importance": 15, "requiredLevel": "Advanced" },
+      { "name": "Machine Learning", "importance": 15, "requiredLevel": "Intermediate" },
+      { "name": "Statistics", "importance": 12, "requiredLevel": "Intermediate" },
+      { "name": "Pandas", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "NumPy", "importance": 7, "requiredLevel": "Intermediate" },
+      { "name": "Scikit-learn", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "SQL", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "Data Visualization", "importance": 5, "requiredLevel": "Intermediate" },
+      { "name": "Deep Learning", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "NLP", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "Feature Engineering", "importance": 5, "requiredLevel": "Intermediate" },
+      { "name": "Model Evaluation", "importance": 5, "requiredLevel": "Intermediate" }
+    ]
+  },
+
+  {
+    "company": "TCS",
+    "role": "Software Developer",
+    "skills": [
+      { "name": "Java", "importance": 15, "requiredLevel": "Intermediate" },
+      { "name": "Python", "importance": 8, "requiredLevel": "Beginner" },
+      { "name": "Data Structures", "importance": 12, "requiredLevel": "Intermediate" },
+      { "name": "Algorithms", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "SQL", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "OOP", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "Git", "importance": 7, "requiredLevel": "Beginner" },
+      { "name": "REST API", "importance": 7, "requiredLevel": "Beginner" },
+      { "name": "Spring Boot", "importance": 7, "requiredLevel": "Beginner" },
+      { "name": "Database Management", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "Unit Testing", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "Problem Solving", "importance": 5, "requiredLevel": "Intermediate" }
+    ]
+  },
+
+  {
+    "company": "TCS",
+    "role": "Java Developer",
+    "skills": [
+      { "name": "Java", "importance": 20, "requiredLevel": "Advanced" },
+      { "name": "OOP", "importance": 10, "requiredLevel": "Advanced" },
+      { "name": "Data Structures", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "Algorithms", "importance": 7, "requiredLevel": "Intermediate" },
+      { "name": "Spring Boot", "importance": 15, "requiredLevel": "Intermediate" },
+      { "name": "SQL", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "REST API", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "Hibernate", "importance": 6, "requiredLevel": "Beginner" },
+      { "name": "Git", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "JUnit", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "Maven", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "Microservices", "importance": 5, "requiredLevel": "Beginner" }
+    ]
+  },
+
+  {
+    "company": "TCS",
+    "role": "Python Developer",
+    "skills": [
+      { "name": "Python", "importance": 20, "requiredLevel": "Advanced" },
+      { "name": "OOP", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "Data Structures", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "Algorithms", "importance": 6, "requiredLevel": "Intermediate" },
+      { "name": "SQL", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "Django", "importance": 10, "requiredLevel": "Beginner" },
+      { "name": "FastAPI", "importance": 7, "requiredLevel": "Beginner" },
+      { "name": "REST API", "importance": 7, "requiredLevel": "Intermediate" },
+      { "name": "Git", "importance": 6, "requiredLevel": "Beginner" },
+      { "name": "Pandas", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "Testing", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "Problem Solving", "importance": 9, "requiredLevel": "Intermediate" }
+    ]
+  },
+
+  {
+    "company": "TCS",
+    "role": "Software Engineer",
+    "skills": [
+      { "name": "Java", "importance": 15, "requiredLevel": "Intermediate" },
+      { "name": "Python", "importance": 10, "requiredLevel": "Beginner" },
+      { "name": "Data Structures", "importance": 12, "requiredLevel": "Intermediate" },
+      { "name": "Algorithms", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "OOP", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "SQL", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "Git", "importance": 7, "requiredLevel": "Beginner" },
+      { "name": "REST API", "importance": 6, "requiredLevel": "Beginner" },
+      { "name": "Problem Solving", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "Operating Systems", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "DBMS", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "Computer Networks", "importance": 4, "requiredLevel": "Beginner" }
+    ]
+  },
+
+  {
+    "company": "Infosys",
+    "role": "Data Analyst",
+    "skills": [
+      { "name": "SQL", "importance": 18, "requiredLevel": "Intermediate" },
+      { "name": "Python", "importance": 15, "requiredLevel": "Intermediate" },
+      { "name": "Excel", "importance": 12, "requiredLevel": "Intermediate" },
+      { "name": "Power BI", "importance": 12, "requiredLevel": "Intermediate" },
+      { "name": "Statistics", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "Pandas", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "NumPy", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "Data Visualization", "importance": 6, "requiredLevel": "Intermediate" },
+      { "name": "Data Cleaning", "importance": 5, "requiredLevel": "Intermediate" },
+      { "name": "ETL", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "Business Analysis", "importance": 5, "requiredLevel": "Beginner" }
+    ]
+  },
+
+  {
+    "company": "Infosys",
+    "role": "Data Scientist",
+    "skills": [
+      { "name": "Python", "importance": 16, "requiredLevel": "Advanced" },
+      { "name": "Machine Learning", "importance": 15, "requiredLevel": "Intermediate" },
+      { "name": "Statistics", "importance": 12, "requiredLevel": "Intermediate" },
+      { "name": "Scikit-learn", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "Pandas", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "NumPy", "importance": 7, "requiredLevel": "Intermediate" },
+      { "name": "SQL", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "Data Visualization", "importance": 5, "requiredLevel": "Intermediate" },
+      { "name": "Deep Learning", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "NLP", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "Feature Engineering", "importance": 5, "requiredLevel": "Intermediate" },
+      { "name": "Model Evaluation", "importance": 5, "requiredLevel": "Intermediate" }
+    ]
+  },
+
+  {
+    "company": "Infosys",
+    "role": "Software Developer",
+    "skills": [
+      { "name": "Java", "importance": 15, "requiredLevel": "Intermediate" },
+      { "name": "Data Structures", "importance": 12, "requiredLevel": "Intermediate" },
+      { "name": "Algorithms", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "OOP", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "SQL", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "Spring Boot", "importance": 8, "requiredLevel": "Beginner" },
+      { "name": "REST API", "importance": 7, "requiredLevel": "Beginner" },
+      { "name": "Git", "importance": 7, "requiredLevel": "Beginner" },
+      { "name": "Problem Solving", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "DBMS", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "Operating Systems", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "Unit Testing", "importance": 4, "requiredLevel": "Beginner" }
+    ]
+  },
+
+  {
+    "company": "Infosys",
+    "role": "Java Developer",
+    "skills": [
+      { "name": "Java", "importance": 20, "requiredLevel": "Advanced" },
+      { "name": "Spring Boot", "importance": 15, "requiredLevel": "Intermediate" },
+      { "name": "OOP", "importance": 10, "requiredLevel": "Advanced" },
+      { "name": "SQL", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "Data Structures", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "REST API", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "Hibernate", "importance": 6, "requiredLevel": "Beginner" },
+      { "name": "Microservices", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "Git", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "Maven", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "JUnit", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "Docker", "importance": 7, "requiredLevel": "Beginner" }
+    ]
+  },
+
+  {
+    "company": "Infosys",
+    "role": "Python Developer",
+    "skills": [
+      { "name": "Python", "importance": 20, "requiredLevel": "Advanced" },
+      { "name": "SQL", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "Django", "importance": 12, "requiredLevel": "Beginner" },
+      { "name": "FastAPI", "importance": 8, "requiredLevel": "Beginner" },
+      { "name": "REST API", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "OOP", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "Data Structures", "importance": 7, "requiredLevel": "Intermediate" },
+      { "name": "Git", "importance": 6, "requiredLevel": "Beginner" },
+      { "name": "Pandas", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "Testing", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "Docker", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "Problem Solving", "importance": 7, "requiredLevel": "Intermediate" }
+    ]
+  },
+
+  {
+    "company": "Infosys",
+    "role": "Software Engineer",
+    "skills": [
+      { "name": "Java", "importance": 15, "requiredLevel": "Intermediate" },
+      { "name": "Python", "importance": 8, "requiredLevel": "Beginner" },
+      { "name": "Data Structures", "importance": 12, "requiredLevel": "Intermediate" },
+      { "name": "Algorithms", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "OOP", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "SQL", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "Git", "importance": 7, "requiredLevel": "Beginner" },
+      { "name": "REST API", "importance": 6, "requiredLevel": "Beginner" },
+      { "name": "Problem Solving", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "DBMS", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "Operating Systems", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "Computer Networks", "importance": 5, "requiredLevel": "Beginner" }
+    ]
+  },
+
+  {
+    "company": "Accenture",
+    "role": "Data Analyst",
+    "skills": [
+      { "name": "SQL", "importance": 18, "requiredLevel": "Intermediate" },
+      { "name": "Python", "importance": 15, "requiredLevel": "Intermediate" },
+      { "name": "Excel", "importance": 12, "requiredLevel": "Intermediate" },
+      { "name": "Power BI", "importance": 12, "requiredLevel": "Intermediate" },
+      { "name": "Statistics", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "Pandas", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "Data Visualization", "importance": 6, "requiredLevel": "Intermediate" },
+      { "name": "NumPy", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "Data Cleaning", "importance": 5, "requiredLevel": "Intermediate" },
+      { "name": "ETL", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "Business Analysis", "importance": 5, "requiredLevel": "Beginner" }
+    ]
+  },
+
+  {
+    "company": "Accenture",
+    "role": "Data Scientist",
+    "skills": [
+      { "name": "Python", "importance": 16, "requiredLevel": "Advanced" },
+      { "name": "Machine Learning", "importance": 15, "requiredLevel": "Intermediate" },
+      { "name": "Statistics", "importance": 12, "requiredLevel": "Intermediate" },
+      { "name": "Scikit-learn", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "Pandas", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "NumPy", "importance": 7, "requiredLevel": "Intermediate" },
+      { "name": "SQL", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "Data Visualization", "importance": 5, "requiredLevel": "Intermediate" },
+      { "name": "Deep Learning", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "NLP", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "Feature Engineering", "importance": 5, "requiredLevel": "Intermediate" },
+      { "name": "Model Evaluation", "importance": 5, "requiredLevel": "Intermediate" }
+    ]
+  },
+
+  {
+    "company": "Accenture",
+    "role": "Software Developer",
+    "skills": [
+      { "name": "Java", "importance": 15, "requiredLevel": "Intermediate" },
+      { "name": "Python", "importance": 8, "requiredLevel": "Beginner" },
+      { "name": "Data Structures", "importance": 12, "requiredLevel": "Intermediate" },
+      { "name": "Algorithms", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "OOP", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "SQL", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "Spring Boot", "importance": 8, "requiredLevel": "Beginner" },
+      { "name": "REST API", "importance": 7, "requiredLevel": "Beginner" },
+      { "name": "Git", "importance": 6, "requiredLevel": "Beginner" },
+      { "name": "Problem Solving", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "DBMS", "importance": 3, "requiredLevel": "Beginner" },
+      { "name": "Unit Testing", "importance": 3, "requiredLevel": "Beginner" }
+    ]
+  },
+
+  {
+    "company": "Accenture",
+    "role": "Java Developer",
+    "skills": [
+      { "name": "Java", "importance": 20, "requiredLevel": "Advanced" },
+      { "name": "Spring Boot", "importance": 15, "requiredLevel": "Intermediate" },
+      { "name": "OOP", "importance": 10, "requiredLevel": "Advanced" },
+      { "name": "Data Structures", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "SQL", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "REST API", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "Hibernate", "importance": 6, "requiredLevel": "Beginner" },
+      { "name": "Microservices", "importance": 6, "requiredLevel": "Beginner" },
+      { "name": "Git", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "Maven", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "JUnit", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "Docker", "importance": 6, "requiredLevel": "Beginner" }
+    ]
+  },
+
+  {
+    "company": "Accenture",
+    "role": "Python Developer",
+    "skills": [
+      { "name": "Python", "importance": 20, "requiredLevel": "Advanced" },
+      { "name": "SQL", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "Django", "importance": 10, "requiredLevel": "Beginner" },
+      { "name": "FastAPI", "importance": 8, "requiredLevel": "Beginner" },
+      { "name": "REST API", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "OOP", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "Data Structures", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "Algorithms", "importance": 5, "requiredLevel": "Intermediate" },
+      { "name": "Git", "importance": 6, "requiredLevel": "Beginner" },
+      { "name": "Pandas", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "Docker", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "Problem Solving", "importance": 7, "requiredLevel": "Intermediate" }
+    ]
+  },
+
+  {
+    "company": "Accenture",
+    "role": "Software Engineer",
+    "skills": [
+      { "name": "Java", "importance": 15, "requiredLevel": "Intermediate" },
+      { "name": "Python", "importance": 8, "requiredLevel": "Beginner" },
+      { "name": "Data Structures", "importance": 12, "requiredLevel": "Intermediate" },
+      { "name": "Algorithms", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "OOP", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "SQL", "importance": 8, "requiredLevel": "Intermediate" },
+      { "name": "Git", "importance": 7, "requiredLevel": "Beginner" },
+      { "name": "REST API", "importance": 6, "requiredLevel": "Beginner" },
+      { "name": "Problem Solving", "importance": 10, "requiredLevel": "Intermediate" },
+      { "name": "DBMS", "importance": 4, "requiredLevel": "Beginner" },
+      { "name": "Operating Systems", "importance": 5, "requiredLevel": "Beginner" },
+      { "name": "Computer Networks", "importance": 5, "requiredLevel": "Beginner" }
+    ]
+  }
+]

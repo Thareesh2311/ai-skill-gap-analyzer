@@ -1,0 +1,147 @@
+[
+  {
+    "skill": "Python",
+    "language": "python",
+    "difficulty": "beginner",
+    "title": "Find the Maximum Number",
+    "description": "Given a list of integers, find and return the maximum number in the list.",
+    "inputFormat": "The first line contains an integer N. The second line contains N space-separated integers.",
+    "outputFormat": "Print the maximum integer.",
+    "constraints": "1 <= N <= 100000",
+    "sampleInput": "5\n10 25 7 40 15",
+    "sampleOutput": "40",
+    "starterCode": "def find_max(arr):\n    # Write your solution here\n    pass",
+    "runnerCode": "{{USER_CODE}}\n\nif __name__ == \"__main__\":\n    import sys\n\n    lines = sys.stdin.read().strip().splitlines()\n    if not lines:\n        raise SystemExit\n\n    n = int(lines[0].strip())\n    arr = []\n    if len(lines) > 1:\n        arr = list(map(int, lines[1].split()))[:n]\n\n    result = find_max(arr)\n\n    if result is not None:\n        print(result)\n",
+    "testCases": [
+      {
+        "input": "5\n10 25 7 40 15",
+        "expectedOutput": "40",
+        "isHidden": false
+      },
+      {
+        "input": "4\n3 8 2 6",
+        "expectedOutput": "8",
+        "isHidden": true
+      },
+      {
+        "input": "3\n-5 -2 -10",
+        "expectedOutput": "-2",
+        "isHidden": true
+      }
+    ],
+    "points": 10
+  },
+  {
+    "skill": "Python",
+    "language": "python",
+    "difficulty": "intermediate",
+    "title": "Count Vowels",
+    "description": "Given a string, count the number of vowels present in the string.",
+    "inputFormat": "A single line containing a string.",
+    "outputFormat": "Print the number of vowels.",
+    "constraints": "1 <= length of string <= 100000",
+    "sampleInput": "hello world",
+    "sampleOutput": "3",
+    "starterCode": "def count_vowels(s):\n    # Write your solution here\n    pass",
+    "runnerCode": "{{USER_CODE}}\n\nif __name__ == \"__main__\":\n    import sys\n\n    value = sys.stdin.read().rstrip(\"\\r\\n\")\n    result = count_vowels(value)\n\n    if result is not None:\n        print(result)\n",
+    "testCases": [
+      {
+        "input": "hello world",
+        "expectedOutput": "3",
+        "isHidden": false
+      },
+      {
+        "input": "programming",
+        "expectedOutput": "3",
+        "isHidden": true
+      },
+      {
+        "input": "AEIOU",
+        "expectedOutput": "5",
+        "isHidden": true
+      }
+    ],
+    "points": 15
+  },
+  {
+    "skill": "Python",
+    "language": "python",
+    "difficulty": "advanced",
+    "title": "Two Sum",
+    "description": "Given an array of integers and a target value, find two numbers whose sum equals the target.",
+    "inputFormat": "The first line contains N and target. The second line contains N integers.",
+    "outputFormat": "Print the indices of the two numbers.",
+    "constraints": "2 <= N <= 100000",
+    "sampleInput": "5 9\n2 7 11 15 3",
+    "sampleOutput": "0 1",
+    "starterCode": "def two_sum(arr, target):\n    # Write your solution here\n    pass",
+    "runnerCode": "{{USER_CODE}}\n\nif __name__ == \"__main__\":\n    import sys\n\n    lines = sys.stdin.read().strip().splitlines()\n    if len(lines) < 2:\n        raise SystemExit\n\n    first = list(map(int, lines[0].split()))\n    n = first[0]\n    target = first[1]\n    arr = list(map(int, lines[1].split()))[:n]\n\n    result = two_sum(arr, target)\n\n    if result is not None:\n        if isinstance(result, (list, tuple)):\n            print(\" \".join(map(str, result)))\n        else:\n            print(result)\n",
+    "testCases": [
+      {
+        "input": "5 9\n2 7 11 15 3",
+        "expectedOutput": "0 1",
+        "isHidden": false
+      },
+      {
+        "input": "4 6\n3 2 4 8",
+        "expectedOutput": "1 2",
+        "isHidden": true
+      }
+    ],
+    "points": 20
+  },
+  {
+    "skill": "Java",
+    "language": "java",
+    "difficulty": "beginner",
+    "title": "Reverse a String",
+    "description": "Given a string, return the string in reverse order.",
+    "inputFormat": "A single line containing a string.",
+    "outputFormat": "Print the reversed string.",
+    "constraints": "1 <= length <= 10000",
+    "sampleInput": "hello",
+    "sampleOutput": "olleh",
+    "starterCode": "public static String reverse(String s) {\n    // Write your solution here\n    return \"\";\n}",
+    "runnerCode": "import java.io.BufferedReader;\nimport java.io.InputStreamReader;\n\npublic class Main {\n{{USER_CODE}}\n\n    public static void main(String[] args) throws Exception {\n        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));\n        String value = reader.readLine();\n\n        if (value == null) {\n            value = \"\";\n        }\n\n        String result = reverse(value);\n\n        if (result != null) {\n            System.out.print(result);\n        }\n    }\n}\n",
+    "testCases": [
+      {
+        "input": "hello",
+        "expectedOutput": "olleh",
+        "isHidden": false
+      },
+      {
+        "input": "java",
+        "expectedOutput": "avaj",
+        "isHidden": true
+      }
+    ],
+    "points": 10
+  },
+  {
+    "skill": "JavaScript",
+    "language": "javascript",
+    "difficulty": "beginner",
+    "title": "Sum of Array",
+    "description": "Given an array of integers, calculate the sum of all elements.",
+    "inputFormat": "The first line contains N. The second line contains N integers.",
+    "outputFormat": "Print the sum.",
+    "constraints": "1 <= N <= 100000",
+    "sampleInput": "5\n1 2 3 4 5",
+    "sampleOutput": "15",
+    "starterCode": "function arraySum(arr) {\n    // Write your solution here\n}",
+    "runnerCode": "const fs = require(\"fs\");\n\n{{USER_CODE}}\n\nconst lines = fs\n    .readFileSync(0, \"utf8\")\n    .trim()\n    .split(/\\r?\\n/);\n\nconst n = Number(lines[0] || 0);\nconst arr = (lines[1] || \"\")\n    .trim()\n    .split(/\\s+/)\n    .filter(Boolean)\n    .map(Number)\n    .slice(0, n);\n\nconst result = arraySum(arr);\n\nif (result !== undefined && result !== null) {\n    if (Array.isArray(result)) {\n        console.log(result.join(\" \"));\n    } else {\n        console.log(result);\n    }\n}\n",
+    "testCases": [
+      {
+        "input": "5\n1 2 3 4 5",
+        "expectedOutput": "15",
+        "isHidden": false
+      },
+      {
+        "input": "3\n10 20 30",
+        "expectedOutput": "60",
+        "isHidden": true
+      }
+    ],
+    "points": 10
+  }
+]

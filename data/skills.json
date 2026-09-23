@@ -1,0 +1,280 @@
+[
+    {
+        "name": "Python",
+        "category": "Programming",
+        "aliases": [
+            "python",
+            "python3",
+            "python programming"
+        ]
+    },
+    {
+        "name": "Java",
+        "category": "Programming",
+        "aliases": [
+            "java",
+            "java programming"
+        ]
+    },
+    {
+        "name": "JavaScript",
+        "category": "Programming",
+        "aliases": [
+            "javascript",
+            "js",
+            "ecmascript"
+        ]
+    },
+    {
+        "name": "C++",
+        "category": "Programming",
+        "aliases": [
+            "c++",
+            "cpp"
+        ]
+    },
+    {
+        "name": "SQL",
+        "category": "Database",
+        "aliases": [
+            "sql",
+            "structured query language"
+        ]
+    },
+    {
+        "name": "MongoDB",
+        "category": "Database",
+        "aliases": [
+            "mongodb",
+            "mongo db"
+        ]
+    },
+    {
+        "name": "MySQL",
+        "category": "Database",
+        "aliases": [
+            "mysql",
+            "my sql"
+        ]
+    },
+    {
+        "name": "React",
+        "category": "Frontend",
+        "aliases": [
+            "react",
+            "react.js",
+            "reactjs"
+        ]
+    },
+    {
+        "name": "Node.js",
+        "category": "Backend",
+        "aliases": [
+            "node.js",
+            "nodejs",
+            "node"
+        ]
+    },
+    {
+        "name": "Express.js",
+        "category": "Backend",
+        "aliases": [
+            "express.js",
+            "expressjs",
+            "express"
+        ]
+    },
+    {
+        "name": "HTML",
+        "category": "Frontend",
+        "aliases": [
+            "html",
+            "html5"
+        ]
+    },
+    {
+        "name": "CSS",
+        "category": "Frontend",
+        "aliases": [
+            "css",
+            "css3"
+        ]
+    },
+    {
+        "name": "Git",
+        "category": "Tools",
+        "aliases": [
+            "git",
+            "git version control"
+        ]
+    },
+    {
+        "name": "GitHub",
+        "category": "Tools",
+        "aliases": [
+            "github",
+            "github repositories"
+        ]
+    },
+    {
+        "name": "Machine Learning",
+        "category": "Data Science",
+        "aliases": [
+            "machine learning",
+            "ml",
+            "machine-learning"
+        ]
+    },
+    {
+        "name": "Deep Learning",
+        "category": "Data Science",
+        "aliases": [
+            "deep learning",
+            "dl",
+            "deep-learning"
+        ]
+    },
+    {
+        "name": "Pandas",
+        "category": "Data Science",
+        "aliases": [
+            "pandas",
+            "pandas library"
+        ]
+    },
+    {
+        "name": "NumPy",
+        "category": "Data Science",
+        "aliases": [
+            "numpy",
+            "num py"
+        ]
+    },
+    {
+        "name": "Scikit-learn",
+        "category": "Data Science",
+        "aliases": [
+            "scikit-learn",
+            "scikit learn",
+            "sklearn"
+        ]
+    },
+    {
+        "name": "Statistics",
+        "category": "Data Science",
+        "aliases": [
+            "statistics",
+            "statistical analysis",
+            "statistical methods"
+        ]
+    },
+    {
+        "name": "Power BI",
+        "category": "Data Analytics",
+        "aliases": [
+            "power bi",
+            "powerbi",
+            "microsoft power bi"
+        ]
+    },
+    {
+        "name": "Excel",
+        "category": "Data Analytics",
+        "aliases": [
+            "excel",
+            "microsoft excel",
+            "ms excel"
+        ]
+    },
+    {
+        "name": "Data Visualization",
+        "category": "Data Analytics",
+        "aliases": [
+            "data visualization",
+            "data visualisation",
+            "data viz",
+            "visualization",
+            "visualisation"
+        ]
+    },
+    {
+        "name": "AWS",
+        "category": "Cloud",
+        "aliases": [
+            "aws",
+            "amazon web services"
+        ]
+    },
+    {
+        "name": "Docker",
+        "category": "DevOps",
+        "aliases": [
+            "docker",
+            "containerization",
+            "containers"
+        ]
+    },
+    {
+        "name": "REST API",
+        "category": "Backend",
+        "aliases": [
+            "rest api",
+            "restful api",
+            "rest",
+            "rest services"
+        ]
+    },
+    {
+        "name": "Data Structures",
+        "category": "Computer Science",
+        "aliases": [
+            "data structures",
+            "data structure",
+            "ds"
+        ]
+    },
+    {
+        "name": "Algorithms",
+        "category": "Computer Science",
+        "aliases": [
+            "algorithms",
+            "algorithm"
+        ]
+    },
+    {
+        "name": "OOP",
+        "category": "Computer Science",
+        "aliases": [
+            "oop",
+            "object oriented programming",
+            "object-oriented programming"
+        ]
+    },
+    {
+        "name": "Operating Systems",
+        "category": "Computer Science",
+        "aliases": [
+            "operating systems",
+            "operating system",
+            "os"
+        ]
+    },
+    {
+        "name": "Computer Networks",
+        "category": "Computer Science",
+        "aliases": [
+            "computer networks",
+            "computer networking",
+            "networking"
+        ]
+    },
+    {
+        "name": "DBMS",
+        "category": "Computer Science",
+        "aliases": [
+            "dbms",
+            "database management system",
+            "database management systems"
+        ]
+    }
+]
